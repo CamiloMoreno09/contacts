@@ -17,6 +17,9 @@
 	<java.version>17</java.version>
 	<sonar.java.binaries>target</sonar.java.binaries>
         </properties>
+	<properties>
+    <sonar.exclusions>src/main/java/**/*</sonar.exclusions>
+        </properties>
 
 	<dependencies>
 		<dependency>
